@@ -2,6 +2,8 @@
   <div>
     <input type="text" v-model="videoId" placeholder="Enter YouTube Video ID"/>
     <button @click="downloadVideo">Download</button>
+    <input type="text" v-model="videoId" placeholder="Enter YouTube Video ID"/>
+    <button @click="downloadVideo">Download</button>
   </div>
 </template>
 
