@@ -6,25 +6,15 @@
 </template>
 
 <script>
-import axios from 'axios'
 export default {
+  name:'tablePage',
   data() {
     return {
       videoId: ''
     }
   },
-  methods: {
-    downloadVideo() {
-      axios.get(`http://localhost:3000/download?videoId=${this.videoId}`)
-        .then(response => {
-          console.log(response.data)
-        })
-    }
-  }
 }
 </script>
-
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
