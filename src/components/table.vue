@@ -13,6 +13,11 @@ export default {
       videoId: ''
     }
   },
+  methods:{
+    downloadVideo(){
+      this.$router.push('formPage')
+    }
+  }
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
