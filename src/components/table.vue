@@ -10,7 +10,6 @@ export default {
   name:'tablePage',
   data() {
     return {
-      videoId: ''
     }
   },
   
